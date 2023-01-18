@@ -242,7 +242,7 @@
         <div class="galeria">
           <div class="proyecto">
             <img src="img/Screenshot from 2023-01-14 12-19-55.png" alt="" />
-            <a href="https://github.com/Javi970/houseOfDevs">
+            <a href="https://github.com/Javi970/houseOfDevs" class="link">
             <div class="overlay">
               <h3>House of Dev</h3>
               <p>
@@ -253,12 +253,12 @@
                 Se utilizo ReactJS para el frontend y ExpressJS para el
                 desarrollo del backend.
               </p>
+            </a>
             </div>
           </div>
-        </a>
+       
           <div class="proyecto">
             <img src="img/TMDB.jpg" alt="" />
-            <a href=""></a>
               <div class="overlay">
                 <h3>TMDB</h3>
                 <p>
@@ -273,7 +273,7 @@
           </div>
           <div class="proyecto">
             <img src="img/Logo.png" alt="" />
-            <a href="https://github.com/Javi970/Como-en-casa">
+            <a href="https://github.com/Javi970/Como-en-casa" class="link">
               <div class="overlay" class="link">
                 <h3>Como en casa</h3>
                 <p>
@@ -319,23 +319,24 @@
         <h2>CONTACTO</h2>
         <div class="fila">
           <!-- Formulario -->
-          <div class="col">
-            <input type="text" placeholder="Tú Nombre" />
-            <input type="text" placeholder="Número telefónico" />
-            <input type="text" placeholder="Dirección de correo" />
-            <input type="text" placeholder="Tema" />
+          <form id="form" class="col" action="https://formspree.io/f/mrgvbldw"
+          method="POST">
+            <input name="name" type="text" id="name" placeholder="Tú Nombre" />
+            <input name="phone" id="phone" type="text" placeholder="Número telefónico" />
+            <input name="email"  id="email" type="text" required placeholder="Dirección de correo" />
+            <input name="Tema" id="Tema" type="text" placeholder="Tema" />
             <textarea
-              name=""
-              id=""
+              name="message"
+              id="message"
               cols="30"
               rows="10"
               placeholder="Mensaje"
             ></textarea>
-            <button>
+            <button type="submit">
               Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
               <span class="overlay"></span>
             </button>
-          </div>
+          </form>
           <!-- Mapa -->
           <div class="col">
             <!--  <img src="img/ubicacion.png" alt="" /> -->

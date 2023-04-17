@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
 * {
   box-sizing: border-box;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   margin: 0;
   padding: 0;
 }
@@ -31,7 +31,7 @@ html {
   padding: 15px 20px;
 }
 .contenedor-header header .logo a {
-  font-family: 'Righteous';
+  font-family: "Righteous";
   font-size: 36px;
   color: #1cb698;
   text-decoration: none;
@@ -92,7 +92,7 @@ html {
 .inicio .contenido-banner h1 {
   margin-top: 40px;
   font-size: 42px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
 }
 .inicio .contenido-banner h2 {
   font-size: 15px;
@@ -125,7 +125,7 @@ html {
 }
 .sobremi h2 {
   font-size: 48px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   text-align: center;
   padding: 20px 0;
 }
@@ -146,7 +146,7 @@ html {
 }
 .sobremi .fila .col h3 {
   font-size: 28px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   margin-bottom: 25px;
 }
 .sobremi .fila .col ul {
@@ -216,7 +216,7 @@ html {
   width: 100%;
 }
 .link {
-    color:#fff;
+  color: #fff;
   text-decoration: none;
 }
 /* SECCION S K I L L S */
@@ -231,7 +231,7 @@ html {
 }
 .skills h2 {
   font-size: 48px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   text-align: center;
   padding: 20px 0;
 }
@@ -244,7 +244,7 @@ html {
 }
 .skills .fila .col h3 {
   font-size: 28px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   margin-bottom: 25px;
 }
 .skills .skill > span {
@@ -305,11 +305,11 @@ html {
   }
 }
 
-.skills .skill .photoshop {
+.skills .skill .react {
   width: 0%;
-  animation: 2s photoshop forwards;
+  animation: 2s react forwards;
 }
-@keyframes photoshop {
+@keyframes react {
   0% {
     width: 0%;
   }
@@ -318,11 +318,11 @@ html {
   }
 }
 
-.skills .skill .wordpress {
+.skills .skill .nodejs {
   width: 0%;
-  animation: 2s wordpress forwards;
+  animation: 2s nodejs forwards;
 }
-@keyframes wordpress {
+@keyframes nodejs {
   0% {
     width: 0%;
   }
@@ -331,11 +331,11 @@ html {
   }
 }
 
-.skills .skill .drupal {
+.skills .skill .redux {
   width: 0%;
-  animation: 2s drupal forwards;
+  animation: 2s redux forwards;
 }
-@keyframes drupal {
+@keyframes redux {
   0% {
     width: 0%;
   }
@@ -344,11 +344,11 @@ html {
   }
 }
 
-.skills .skill .comunicacion {
+.skills .skill .express {
   width: 0%;
-  animation: 2s comunicacion forwards;
+  animation: 2s express forwards;
 }
-@keyframes comunicacion {
+@keyframes express {
   0% {
     width: 0%;
   }
@@ -357,11 +357,11 @@ html {
   }
 }
 
-.skills .skill .trabajo {
+.skills .skill .postgresql {
   width: 0%;
-  animation: 2s trabajo forwards;
+  animation: 2s postgresql forwards;
 }
-@keyframes trabajo {
+@keyframes postgresql {
   0% {
     width: 0%;
   }
@@ -370,11 +370,11 @@ html {
   }
 }
 
-.skills .skill .creatividad {
+.skills .skill .git {
   width: 0%;
-  animation: 2s creatividad forwards;
+  animation: 2s git forwards;
 }
-@keyframes creatividad {
+@keyframes git {
   0% {
     width: 0%;
   }
@@ -383,29 +383,53 @@ html {
   }
 }
 
-.skills .skill .dedicacion {
+.skills .skill .tailwindcss {
   width: 0%;
-  animation: 2s dedicacion forwards;
+  animation: 2s tailwindcss forwards;
 }
-@keyframes dedicacion {
+@keyframes tailwindcss {
   0% {
     width: 0%;
   }
   100% {
-    width: 65%;
+    width: 99%;
   }
 }
 
-.skills .skill .proyect {
+.skills .skill .typescript {
   width: 0%;
-  animation: 2s proyect forwards;
+  animation: 2s typescript forwards;
 }
-@keyframes proyect {
+@keyframes typescript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+.skills .skill .mongodb {
+  width: 0%;
+  animation: 2s mongodb forwards;
+}
+@keyframes mongodb {
   0% {
     width: 0%;
   }
   100% {
     width: 94%;
+  }
+}
+.skills .skill .bootstrap {
+  width: 0%;
+  animation: 2s bootstrap forwards;
+}
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
   }
 }
 
@@ -421,7 +445,7 @@ html {
 }
 .portfolio h2 {
   font-size: 48px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   text-align: center;
   padding: 20px 0;
 }
@@ -479,7 +503,7 @@ html {
 }
 .contacto h2 {
   font-size: 48px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   text-align: center;
   padding: 20px 0;
 }

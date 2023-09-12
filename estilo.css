@@ -561,7 +561,8 @@ html{
     background-color: transparent;
     border: 2px solid #fff;
     width: fit-content;
-    display: block;
+    display: flex;
+    gap: 10px;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;

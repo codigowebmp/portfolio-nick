@@ -532,20 +532,24 @@ html{
     max-width: 1100px;
     margin: auto;
 }
+
 .contacto h2{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 }
+
 .contacto .fila{
     display: flex;
 }
+
 .contacto .col{
     width: 50%;
     padding: 10px;
     position: relative;
 }
+
 .contacto .col input, .contacto .col textarea{
     display: block;
     width: 100%;
@@ -556,6 +560,7 @@ html{
     color: #fff;
     font-size: 18px;
 }
+
 .contacto button{
     cursor: pointer;
     background-color: transparent;
@@ -570,6 +575,7 @@ html{
     position: relative;
     z-index: 10;
 }
+
 .contacto button .overlay{
     position: absolute;
     top: 0;
@@ -580,12 +586,15 @@ html{
     z-index: -1;
     transition: 1s;
 }
+
 .contacto button:hover .overlay{
     width: 100%;
 }
+
 .contacto .col img{
     width: 100%;
 }
+
 .contacto .col .info{
     position: absolute;
     top: 40%;
@@ -595,17 +604,21 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .contacto .col .info ul{
     list-style: none;
 }
+
 .contacto .col .info ul li{
     margin-bottom: 20px;
 }
+
 .contacto .col .info ul li i{
     color: #1CB698;
     display: inline-block;
     margin-right: 20px;
 }
+
 footer{
     background-color: #252A2E;
     color: #fff;
@@ -614,9 +627,11 @@ footer{
     position: relative;
     width: 100%;
 }
+
 footer .redes{
     margin-bottom: 20px;
 }
+
 footer .redes a{
     color: #fff;
     display: inline-block;
@@ -630,6 +645,7 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
+
 footer .arriba{
     display: block;
     width: 50px;
@@ -644,6 +660,7 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
@@ -668,6 +685,7 @@ footer .arriba{
         padding: 10px 0;
     }
 }
+
 @media screen and (max-width:700px){
     .sobremi .fila{
         display: block;
